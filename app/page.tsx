@@ -14,7 +14,7 @@ export default function Home() {
         <div className="radiating-lines" />
       </div>
 
-      <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
         {/* Header */}
         <header className="py-12 sm:py-16 lg:py-20 text-center">
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold 
@@ -29,7 +29,7 @@ export default function Home() {
         </header>
 
         {/* Terminal Section */}
-        <div className="w-full max-w-[90vw] mx-auto mb-16 sm:mb-20 relative">
+        <div className="w-full max-w-[90vw] lg:max-w-full mx-auto mb-16 sm:mb-20 relative">
           <div className="vintage-monitor">
             <div className="vintage-screen">
               <div className="screen-content">
@@ -42,11 +42,9 @@ export default function Home() {
                     <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-blue-500/70" />
                   </div>
                 </div>
-                <div className="relative w-full overflow-hidden bg-black" style={{ paddingTop: '75%' }}>
+                <div className="terminal-content">
                   <iframe
                     src={process.env.NEXT_PUBLIC_ELIZA_URL || "https://eliza-client.onrender.com"}
-                    className="absolute top-0 left-0 w-full h-full"
-                    style={{ border: 'none' }}
                     allow="clipboard-read; clipboard-write"
                   />
                 </div>
@@ -103,3 +101,4 @@ export default function Home() {
     </main>
   )
 }
+
