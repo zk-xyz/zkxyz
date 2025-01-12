@@ -24,7 +24,7 @@ export default function Home() {
           </h1>
           <p className="text-base sm:text-lg lg:text-xl text-purple-200 relative z-10 max-w-2xl mx-auto
             drop-shadow-[0_0_15px_rgba(168,85,247,0.5)]">
-            Preserving the future's flora in the heart of technology
+            Preserving the future&apos;s flora in the heart of technology
           </p>
         </header>
 
@@ -61,7 +61,7 @@ export default function Home() {
             <Leaf className="w-10 h-10 sm:w-12 sm:h-12 mb-4 text-orange-400 
               drop-shadow-[0_0_10px_rgba(251,146,60,0.5)]" />
             <h3 className="text-lg sm:text-xl font-bold text-orange-400 mb-2">Digital Seed Vault</h3>
-            <p className="text-sm sm:text-base text-purple-200/70">Secure storage for the world's rarest plant genetic data</p>
+            <p className="text-sm sm:text-base text-purple-200/70">Secure storage for the world&apos;s rarest plant genetic data</p>
           </div>
           <div className="retro-card group">
             <Database className="w-10 h-10 sm:w-12 sm:h-12 mb-4 text-blue-400
