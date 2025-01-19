@@ -44,7 +44,7 @@ export default function Home() {
                 </div>
                 <div className="terminal-content">
                   <iframe
-                    src={process.env.NEXT_PUBLIC_ELIZA_URL || "https://eliza-client.onrender.com"}
+                    src={process.env.NEXT_PUBLIC_ELIZA_URL || "https://eliza-q565.onrender.com/"}
                     allow="clipboard-read; clipboard-write"
                   />
                 </div>
